@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    display: flex;
+    margin:  auto;
+    background-color: #ffff;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: 1; 
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    margin-top: 90px;
+}
+.log-in {
+    align-items: center;
+    text-align: center;
+    margin-left: 123px;
+    height: 50%;
+    padding-top: 10px;
+    margin-right: 90px;
+    color: gray;
+}
+h2{
+    padding-bottom: 20px;
+    padding-top: 30px;
+    color: #000;
+}
+.lady-image {
+    width: 618px;
+    height: 80vh;
+    margin-left: 20px;
+}
+.dash {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-color: 1px solid black;
+    font-size: 15px;
+    padding: 20px;
+    color: gray;
+    border-radius: 5px;
+}
+button{
+    background-color: #00d19d;
+    width: 256px;
+    height: 40px;
+    color: white;
+    border: 0;
+    box-shadow: 0 0 rgba(130, 129, 129, 0.8);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.Already{
+    color: #00d19d;
+    margin-top: 30px;
+}
+.line{
+    width: 300px;
+    margin-top: 40px;
+}
+.sign-up{
+    font-size: 10px;
+    margin-top: 30px;
+}
+span{
+    color: #00d19d ;
+}
+
+/* mobile size goes here */
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .log-in {
+        padding: 30px;
+        margin-left: 90px;
+    }
+    .lady-image {
+        width: 250px;
+        height: 70vh;
+        margin-top: -40px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    input{
+        width: 180px;
+        height: 30px;
+        font-size: 10px;
+        padding: 10px;
+    }
+    button{
+        width: 180px;
+        height: 30px;
+    }
+    .Already {
+        font-size: 10px;
+    }
+    .line{
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .lady-image {
+        width: 200px;
+        height: 80vh;
+    }
+}
